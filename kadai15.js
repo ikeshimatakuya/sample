@@ -27,6 +27,7 @@ class Item {
         this.stock += num;
     }
 
+
     // 商品の販売
     sale(num){
         if (this.stock < num) {
